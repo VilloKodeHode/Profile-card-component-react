@@ -5,28 +5,22 @@
 @tailwind utilities;
 
 #root {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1440px; */
   text-align: center;
 }
 
 @media (max-width: 1440px) and (min-width: 376px) {
   .BackgroundCircles {
     position: absolute;
-    background: url("src/routes/assets/bg-pattern-top.svg") -20rem -30rem
-        no-repeat,
-      url("src/routes/assets/bg-pattern-bottom.svg") 40rem 30rem no-repeat,
-      #19a2ae;
+    background: url("src/assets/bg-pattern-top.svg") -20rem -30rem no-repeat,
+      url("src/assets/bg-pattern-bottom.svg") 40rem 30rem no-repeat, #19a2ae;
   }
 }
 @media (max-width: 375px) {
   .BackgroundCircles {
     position: absolute;
-    background: url("src/routes/assets/bg-pattern-top.svg") -35rem -20rem
-        no-repeat,
-      url("src/routes/assets/bg-pattern-bottom.svg") 10rem 25rem no-repeat,
-      #19a2ae;
+    background: url("src/assets/bg-pattern-top.svg") -35rem -20rem no-repeat,
+      url("src/assets/bg-pattern-bottom.svg") 10rem 25rem no-repeat, #19a2ae;
     background-size: 200%;
   }
 }
@@ -34,8 +28,7 @@
 @media (min-width: 1441px) {
   .BackgroundCircles {
     position: absolute;
-    background: url("src/routes/assets/bg-pattern-top.svg") 0rem -25rem no-repeat,
-      url("src/routes/assets/bg-pattern-bottom.svg") 55rem 25rem no-repeat,
-      #19a2ae;
+    background: url("src/assets/bg-pattern-top.svg") 0rem -25rem no-repeat,
+      url("src/assets/bg-pattern-bottom.svg") 55rem 25rem no-repeat, #19a2ae;
   }
 }
