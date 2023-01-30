@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/* @import url("./assets/bg-pattern-top.svg");
+@import url("./assets/bg-pattern-bottom.svg"); */
 
 @tailwind base;
 @tailwind components;
@@ -9,18 +11,18 @@
   text-align: center;
 }
 
-@media (max-width: 1440px) and (min-width: 376px) {
+/* @media (max-width: 1440px) and (min-width: 376px) {
   .BackgroundCircles {
     position: absolute;
-    background: url("src/assets/bg-pattern-top.svg") -20rem -30rem no-repeat,
-      url("src/assets/bg-pattern-bottom.svg") 40rem 30rem no-repeat, #19a2ae;
+    background: url("bg-pattern-top.svg") -20rem -30rem no-repeat,
+      url("bg-pattern-bottom.svg") 40rem 30rem no-repeat, #19a2ae;
   }
 }
 @media (max-width: 375px) {
   .BackgroundCircles {
     position: absolute;
-    background: url("src/assets/bg-pattern-top.svg") -35rem -20rem no-repeat,
-      url("src/assets/bg-pattern-bottom.svg") 10rem 25rem no-repeat, #19a2ae;
+    background: url("bg-pattern-top.svg") -35rem -20rem no-repeat,
+      url("bg-pattern-bottom.svg") 10rem 25rem no-repeat, #19a2ae;
     background-size: 200%;
   }
 }
@@ -28,7 +30,7 @@
 @media (min-width: 1441px) {
   .BackgroundCircles {
     position: absolute;
-    background: url("src/assets/bg-pattern-top.svg") 0rem -25rem no-repeat,
-      url("src/assets/bg-pattern-bottom.svg") 55rem 25rem no-repeat, #19a2ae;
+    background: url("bg-pattern-top.svg") 0rem -25rem no-repeat,
+      url("bg-pattern-bottom.svg") 55rem 25rem no-repeat, #19a2ae;
   }
-}
+} */
